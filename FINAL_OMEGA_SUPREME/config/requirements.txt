@@ -1,0 +1,80 @@
+# OMEGA_X Requirements
+# Core Python dependencies for OMEGA_X cyber exploitation framework
+
+# Network and protocol libraries
+scapy>=2.4.5          # Network packet manipulation and analysis
+requests>=2.28.0      # HTTP library for web requests
+paramiko>=2.11.0      # SSH protocol implementation
+netifaces>=0.11.0     # Network interface information
+cryptography>=3.4.8   # Cryptographic functions
+
+# System monitoring and utilities
+psutil>=5.9.0         # System and process utilities
+colorama>=0.4.5       # Cross-platform colored terminal text
+pywin32>=304          # Windows API extensions (Windows only)
+
+# Data processing and analysis
+numpy>=1.21.0         # Fundamental package for array computing
+pandas>=1.5.0         # Data analysis and manipulation
+matplotlib>=3.5.0     # Plotting library for data visualization
+
+# Machine learning and AI (for financial attacks)
+scikit-learn>=1.1.0   # Machine learning library
+tensorflow>=2.9.0     # Deep learning framework
+torch>=1.12.0         # PyTorch deep learning framework
+
+# Web framework (for monitoring interface)
+flask>=2.2.0          # Lightweight WSGI web application framework
+fastapi>=0.85.0       # Modern, fast web framework for building APIs
+uvicorn>=0.18.0       # ASGI web server implementation
+
+# Database and storage
+sqlite3               # Built-in Python library for SQLite databases
+sqlalchemy>=1.4.0     # SQL toolkit and Object-Relational Mapping
+
+# Additional utilities
+beautifulsoup4>=4.11.0 # HTML and XML parsing
+lxml>=4.9.0           # XML and HTML processing
+selenium>=4.8.0       # Browser automation for web scraping
+webdriver-manager>=3.8.0 # Automatic webdriver management
+pyyaml>=6.0           # YAML parser and emitter
+jinja2>=3.1.0         # Template engine
+click>=8.1.0          # Command line interface creation kit
+
+# Security and penetration testing
+metasploit-framework  # Metasploit framework integration
+impacket>=0.10.0      # Network protocols implementation
+pwntools>=4.8.0       # CTF framework and exploit development library
+
+# Hardware interaction (for BadUSB, NFC, etc.)
+pyserial>=3.5         # Serial port communication
+pyusb>=1.2.1          # USB access for Python
+smartcard>=0.23       # Smart card library
+
+# Android integration
+adb-shell>=0.4.0      # Android Debug Bridge shell
+
+# Cross-platform GUI (optional)
+tkinter               # Built-in Python GUI library
+pyqt5>=5.15.0         # Qt GUI framework
+kivy>=2.1.0           # OpenGL ES accelerated framework
+
+# Development and testing
+pytest>=7.1.0         # Testing framework
+black>=22.0.0         # Code formatter
+flake8>=5.0.0         # Linting tool
+mypy>=0.971           # Static type checker
+
+# Optional: For advanced features
+opencv-python>=4.6.0  # Computer vision library (for camera control)
+pygame>=2.1.0         # Game development library
+pynput>=1.7.0         # Mouse and keyboard control
+
+# Linux-specific
+python-apt>=2.4.0     # Python bindings for APT (Linux package management)
+
+# Windows-specific
+pypiwin32>=223        # Windows API extensions alternative
+
+# macOS-specific
+appscript>=1.1.2      # AppleScript integration
